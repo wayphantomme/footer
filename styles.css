@@ -1,0 +1,84 @@
+footer {
+  background: #1B2A4A; /* biru tua krono */
+  padding-top: 50px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.footer-content {
+  width: 33%;
+  min-width: 280px;
+  margin-bottom: 30px;
+}
+
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-content p {
+  margin: 6px 0;
+  opacity: 0.85;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.list li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.list li a:hover {
+  color: #4680FE; /* biru krono */
+}
+
+.social-icons {
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #4680FE;
+}
+
+.bottom-bar {
+  background: #0D1A33;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.bottom-bar p {
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 15px;
+}
